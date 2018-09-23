@@ -8,6 +8,6 @@
 		It is now
 		<%= new java.util.Date() %></p>
 	<p>
-		This message is coming from the container on 9/21
+		This environment is SIT and this message is coming from the container on 9/21
 		<%= request.getRemoteAddr()  %></p>
 </body>
