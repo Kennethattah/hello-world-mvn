@@ -10,6 +10,6 @@ ENV APP_NAME="hello-world" \
     APP_PKG_LOCATION="/u01/oracle"
 
 # Copy files and deploy application in WLST Offline mode
-COPY /var/jenkins_home/workspace/MyFirstProj/container-scripts/* /u01/oracle/
+COPY container-scripts/* /u01/oracle/
 
 RUN wlst /u01/oracle/app-deploy.py
