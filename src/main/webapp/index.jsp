@@ -8,6 +8,6 @@
 		It is now
 		<%= new java.util.Date() %></p>
 	<p>
-		 this message is coming from the container on 9/26 in the demo for RDG group
+		 WOW, the the demo for RDG group seems to be successful on tomcat
 		<%= request.getRemoteAddr()  %></p>
 </body>
