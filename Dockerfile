@@ -5,11 +5,11 @@
 FROM 1221-domain
 
 # Define variables
-ENV APP_NAME="sample" \
-    APP_PKG_FILE="sample.war" \
+ENV APP_NAME="hello-world" \
+    APP_PKG_FILE="hello-world-war-1.0.0.war" \
     APP_PKG_LOCATION="/u01/oracle"
 
 # Copy files and deploy application in WLST Offline mode
-COPY /home/admin2/docker-ws/ws-owls-249/1221-appdeploy/container-scripts/* /u01/oracle/
+COPY /var/jenkins_home/workspace/MyFirstProj/container-scripts/* /u01/oracle/
 
 RUN wlst /u01/oracle/app-deploy.py
