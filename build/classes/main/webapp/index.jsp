@@ -8,6 +8,6 @@
 		It is now
 		<%= new java.util.Date() %></p>
 	<p>
-		This environment is SIT and this message is coming from the container on 9/21
+		 WOW, the the demo for RDG group seems to be successful on tomcat
 		<%= request.getRemoteAddr()  %></p>
 </body>
